@@ -89,10 +89,10 @@ let wienerSeed = getSeed();
 
 function xfillRect( x, y, w, h )
 {
-	var X = (x/800)*DIM;
-	var Y = (y/800)*DIM;
-	var W = (w/800)*DIM;
-	var H = (h/800)*DIM;
+	var X = (x/960)*DIM;
+	var Y = (y/960)*DIM;
+	var W = (w/960)*DIM;
+	var H = (h/960)*DIM;
 	ctx.fillRect( X, Y, W, H );
 }
 
